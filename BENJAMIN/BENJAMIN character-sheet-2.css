@@ -1,0 +1,130 @@
+p{
+    margin: 0px; 
+}
+#Character-sheet{ 
+    background: url(' https://i.imgur.com/2gh8y09.png '); 
+	height: 768px; 
+    width: 600px; 
+    position: relative; 
+    margin: 0px auto; 
+}
+.box{
+	overflow: hidden; 
+    position: absolute; 
+    background-color: rgba(255, 255, 255, 0); 
+}
+input[name="paragraph"] {
+	display:none;
+}
+input[name="paragraph"] + div {
+	display:none;
+}
+input[name="paragraph"]:checked + div {
+	display:block;
+	margin:auto;
+}
+label {
+	cursor: pointer
+}
+label:hover {
+	text-shadow: 2px 2px #00F4FF;
+	cursor: pointer
+}
+.text{
+	font: 15px/1 verdana; 
+    font-family: "Share Tech Mono"; 
+    color: #111; 
+    padding-right: 600px; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    text-align: justify; 
+    height: inherit; 
+    width: inherit; 
+}
+.text > div{
+	width: inherit; 
+    box-sizing: border-box; 
+    padding: 0px; 
+}
+.text span{
+	color: #111;
+}
+.text h1{
+	margin: 8px 0px 0px; 
+    line-height: 1.5; 
+    font-family: "Share Tech Mono";  
+    font-size: 17px; 
+    text-align: center; 
+    padding: 0px;
+    color: #FFFFFF
+}
+.text h2{
+	margin: 8px 0px 10px; 
+    line-height: 1.5; 
+    font-family: "Homemade Apple";  
+    font-size: 25px; 
+    text-align: center; 
+    padding: 0px;
+}
+.text h3{
+	margin: 5px 0px 0px; 
+    line-height: 1.5; 
+    font-family: "Homemade Apple";  
+    font-size: 36px; 
+    text-align: left; 
+    padding: 0px;
+}
+.title{
+    width: 246px; 
+    height: 131px; 
+    top: 63px; 
+    left: 241px;
+}
+.sheet{
+	width: 391px; 
+    height: 380px; 
+    top: 317px; 
+    left: 100px;
+}
+.button-1{
+	background: url(' https://i.imgur.com/PwyADTz.png ');
+    width: 89px;
+    height: 37px;
+    top: 35px;
+    left: 501px;
+}
+.button-2{
+	background: url(' https://i.imgur.com/zdtzQH2_d.webp?maxwidth=760&fidelity=grand ');
+	width: 89px;
+    height: 37px;
+    top: 75px;
+    left: 501px;
+}
+.button-3{
+	background: url(' https://i.imgur.com/zdtzQH2_d.webp?maxwidth=760&fidelity=grand ');
+	width: 89px;
+    height: 37px;
+    top: 115px;
+    left: 501px;
+}
+.button-4{
+	background: url(' https://i.imgur.com/zdtzQH2_d.webp?maxwidth=760&fidelity=grand ');
+	width: 89px;
+    height: 37px;
+    top: 155px;
+    left: 501px;
+}
+.button-5{
+	background: url(' https://i.imgur.com/zdtzQH2_d.webp?maxwidth=760&fidelity=grand ');
+	width: 89px;
+    height: 37px;
+    top: 195px;
+    left: 501px;
+}
+.button-6{
+	background: url(' https://i.imgur.com/JIhZtnt_d.webp?maxwidth=760&fidelity=grand '); 
+    width: 89px;
+    height: 37px;
+    top: 235px;
+    left: 501px;
+}

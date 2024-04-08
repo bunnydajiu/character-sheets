@@ -1,0 +1,72 @@
+p{
+	margin: 0px; 
+} 
+#Character-sheet{ 
+	background: url('https://i.imgur.com/3lQwWBK.png'); 
+	height: 800px; 
+	width: 600px; 
+	position: relative; 
+	margin: 0px auto;
+}
+.Sheet-shapeBox{ 
+	overflow: hidden; 
+	position: absolute; 
+	background-color: rgba(255, 255, 255, 0); 
+} 
+.Sheet-boxText{ 
+	font: 16px/1 verdana; 
+	font-family: "Zen Kurenaido"; 
+	color: #111; 
+	padding-right: 600px; 
+	overflow-y: auto; 
+	overflow-x: hidden; 
+	text-align: justify; 
+	height: inherit; 
+	width: inherit; 
+	} 
+.Sheet-boxText > div{ 
+	width: inherit; 
+	box-sizing: border-box; 
+	padding: 0px; 
+} 
+.Sheet-boxText span{ 
+	color: #111;
+} 
+.Sheet-boxText h1{
+	margin: 4px 0px 10px; 
+	line-height: 1.5; 
+	font-family: "Caveat";  
+	font-size: 25px; 
+	text-align: center; 
+	padding: 0px;
+	}
+.card{ 
+	width: 321px; 
+	height: 235px; 
+	top: 32px; 
+	left: 39px;
+} 
+.storia{ 
+	width: 321px; 
+	height: 422px; 
+	top: 349px; 
+	left: 38px;
+} 
+.pokemon{ 
+	width: 100px; 
+	height: 40px; 
+	top: 294px; 
+	left: 39px;
+} 
+.altro{ 
+	width: 100px; 
+	height: 45px; 
+	top: 310px; 
+	left: 151px;
+} 
+.Sheet--Box-4{ 
+	width: 100px; 
+	height: 45px; 
+	top: 294px; 
+	left: 258px;
+	} 

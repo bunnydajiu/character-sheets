@@ -1,0 +1,132 @@
+p{
+    margin: 0px;
+} 
+#Lily-dati{ 
+    background: url(' https://i.postimg.cc/gkrvF1JD/Scheda-Dati-6-jpg.png '); 
+    height: 800px; 
+    width: 583px; 
+    position: relative; 
+    margin: 0px auto; 
+    box-shadow: 0px 5px 10px 3px black;
+}
+#Lily-storia{ 
+    background: url(' https://i.postimg.cc/3Nfm0FLm/Scheda-Storia-16-jpg.png '); 
+    height: 800px; 
+    width: 583px; 
+    position: relative; 
+    margin: 0px auto; 
+    box-shadow: 0px 0px 10px black;
+}
+#Lily-affetti{ 
+    background: url(' https://i.postimg.cc/T20xb4Tn/Scheda-Affetti-6.png '); 
+    height: 800px; 
+    width: 583px; 
+    position: relative; 
+    margin: 0px auto; 
+    box-shadow: 0px 0px 10px black;
+}
+#Lily-off{ 
+    background: url(' https://i.postimg.cc/VLTXY40c/Scheda-Off-6-jpg.png '); 
+    height: 800px; 
+    width: 583px; 
+    position: relative; 
+    margin: 0px auto; 
+    box-shadow: 0px 0px 10px black;
+}    
+.Scheda{ 
+    overflow: hidden; 
+    position: absolute; 
+    background-color: rgba(255, 255, 255, 0);
+}
+input[name="paragrafo"] {display:none;
+}
+input[name="paragrafo"] + div {display:none;
+}
+input[name="paragrafo"]:checked + div {
+	display:block; margin:auto;
+}    
+input[name="scena"] {display: none;
+}
+input[name="scena"] + div {display: none;
+}
+input[name="scena"]:checked + div {
+	display: block; margin: auto;
+}
+label{
+	cursor: pointer;
+}
+label:hover {
+	color: #FF0000;
+	text-shadow: 2px 2px 1px #FF9999;
+	cursor: pointer;
+}    
+body {cursor: url("https://i.postimg.cc/K8MjKDdh/gam549.png"), auto;
+}
+.testo{ 
+    font: 14px/1 Montserrat; 
+    font-family: "Montserrat"; 
+    color: #111; 
+    padding-right: 600px; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    text-align: justify; 
+    height: inherit; 
+    width: inherit;
+}    
+.testo > div{ 
+    width: inherit; 
+    box-sizing: border-box; 
+    padding: 0px;
+}    
+.testo span{
+    margin: 4px 0px 10px; 
+    line-height: 1.0; 
+    font-family: "Barlow";  
+    font-size: 17px; 
+    text-align: center; 
+    padding: 0px;
+    letter-spacing:3px;
+}
+.testo h1{
+    margin: 10px 0px 15px; 
+    line-height: 1.6; 
+    font-family: "Marck Script";  
+    font-size: 24px; 
+    text-align: center; 
+    padding: 0px;
+    letter-spacing:5px;
+} 
+.testo buttons{
+    margin: 4px 0px 0px; 
+    line-height: 2.2; 
+    font-family: "Barlow";  
+    font-size: 20px; 
+    text-align: center; 
+    padding: 0px;
+}
+.menu{ 
+    width: 485px; 
+    height: 40px; 
+    top: 486px; 
+    left: 47px;
+}
+.box{ 
+    width: 476px; 
+    height: 227px; 
+    top: 553px; 
+    left: 52px;
+}    
+.album {
+	background-image:url("");
+ 	background-size: 600px;
+	width: 600px;
+	margin: 0 auto;
+}
+.bottoneindietro{
+	color: #FFFFFF; 
+	font-family: "Marck Script";
+	font-size: 25px;
+	text-align: center; 
+	padding: 0px;
+	text-shadow: 0 0 3px #000000;
+}

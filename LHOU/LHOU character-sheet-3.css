@@ -1,0 +1,138 @@
+p{margin: 0px; 
+} 
+#Lhou-card{ 
+	background: url(' https://i.imgur.com/3kvLLiR.png '); 
+    height: 650px; 
+    width: 600px; 
+    position: relative; 
+    margin: 0px auto;
+}
+#Lhou-bg{ 
+	background: url(' https://i.imgur.com/MZv5TvF.png '); 
+    height: 650px;
+    width: 600px;
+    position: relative;
+    margin: 0px auto;
+}
+#Lhou-pk{ 
+	background: url(' https://i.imgur.com/U3IzqE7.png '); 
+    height: 650px; 
+    width: 600px; 
+    position: relative; 
+    margin: 0px auto;
+}
+#Lhou-affett{ 
+	background: url(' https://i.imgur.com/4iCxKBG.png '); 
+    height: 650px;
+    width: 600px;
+    position: relative;
+    margin: 0px auto;
+}
+#Lhou-panda{ 
+	background: url(''); 
+    height: 650px; 
+    width: 600px; 
+    position: relative; 
+    margin: 0px auto;
+}
+.box{ 
+	overflow: hidden; 
+    position: absolute; 
+    background-color: rgba(255, 255, 255, 0); 
+}
+input[name="paragraph"] {display:none;
+}
+input[name="paragraph"] + div {display:none;
+}
+input[name="paragraph"]:checked + div {
+	display:block; margin:auto;
+}
+input[name="scena"] {display: none
+}
+input[name="scena"] + div {display: none
+}
+input[name="scena"]:checked + div {
+	display: block; margin: auto
+}
+label {
+	cursor: pointer;}
+label:hover {
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+	cursor: pointer;
+}
+.testo{
+	font: 14px/1 M PLUS Code Latin; 
+    font-family: "M PLUS Code Latin"; 
+    color: #2A2A2A; 
+    padding-right: 600px; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    text-align: justify; 
+    text-justify: inter-word;
+    height: inherit; 
+    width: inherit;
+}
+.testo > div{ 
+	width: inherit; 
+    box-sizing: border-box; 
+    padding: 0px;
+}
+.testo card{
+	font: 20px/1 M PLUS Code Latin;
+    line-height: 1.6;
+}
+.testo span{ 
+	color: #104D15;
+    text-shadow: 0 0 3px #00FF00;
+}
+.testo spao{ 
+	color: #4C1010;
+    text-shadow: 0 0 3px #FF0000;
+}
+.testo h1{
+    color: #2A2A2A;
+    -webkit-text-stroke: 1px;
+	margin: 10px 0px 10px; 
+    line-height: 1; 
+    letter-spacing: 4px;
+    font-family: "Yuji Syuku"; 
+    font-size: 30px; 
+    text-align: center; 
+    padding: 0px;
+}
+.testo h2{
+	color: #2A2A2A;
+	margin: -2.1px 0px 0px; 
+    line-height: 1.6; 
+    font-family: "Yuji Syuku"; 
+    font-size: 25px; 
+    text-align: center; 
+    padding: 0px;
+}
+.testo h3{
+	margin: 13px 0px 0px; 
+    color: #FF0000; 
+    font-family: "Permanent Marker"; 
+    font-size: 25px; 
+    -webkit-text-stroke: 0.1px #FF0000
+}
+.testo h4{
+    color: #2A2A2A;
+    font-family: "Yuji Syuku"; 
+    font-size: 20px; 
+    text-align: center; 
+    padding: 0px;
+}
+.bottoni{ 
+	width: 124px; 
+    height: 250px; 
+    top: 349px; 
+    left: 15px;
+}
+.scheda{ 
+	width: 263px; 
+    height: 455px; 
+    top: 90px; 
+    left: 167px;
+} 
